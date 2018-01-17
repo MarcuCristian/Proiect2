@@ -1,0 +1,18 @@
+.list {
+    margin-top: 20px;
+}
+.list img {
+    height: 150px;
+}
+
+.list > div {
+    display: flex;
+    align-items: center;
+}
+body {
+
+    background-size:100%;
+    background-image: url("fundal.png");
+    font-family: 'Aldrich';
+    font-size: 22px;
+}

@@ -1,0 +1,19 @@
+{
+  "cards": [
+    {
+      "name": "Varian",
+      "img": "http://media-hearth.cursecdn.com/avatars/328/16/22342.png",
+      "id": 1
+    },
+    {
+      "name": "Aluneth",
+      "img": "http://www.hearthstonetopdecks.com/wp-content/uploads/2017/11/aluneth-1.png",
+      "id": 2
+    },
+    {
+      "name": "alextraza",
+      "img": "https://d1u5p3l4wpay3k.cloudfront.net/hearthstone_gamepedia/b/b4/Alexstrasza%28303%29.png",
+      "id": 4
+    }
+  ]
+}

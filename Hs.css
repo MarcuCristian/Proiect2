@@ -1,0 +1,297 @@
+.navbar {
+    overflow: hidden;
+    background-image:url('titlu.png');
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+body {
+   
+    background-size:100%;
+    background-image: url("fundal.png");
+    font-family: 'Aldrich';
+    font-size: 22px;
+}
+
+
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+    width: 200px;
+    margin-right: 2px;
+    opacity: 0.5;
+}
+
+h1{
+
+    color:rgba(150, 89, 65, 0.671);
+}
+h2{
+    
+        color:rgba(150, 89, 65, 0.671);
+    }
+
+h3 {text-align: right;
+    color: rgb(0, 2, 128);
+    margin-left: 20px;
+    text-decoration: underline;
+    font-size: 15px;
+    
+}
+
+h4 {font-size:19px;
+    color:rgb(0, 0, 0);
+    text-align:right;
+    
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto;
+    width:70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.head-a{
+    
+        display: grid;
+        grid-template-columns:auto ;
+        grid-template-rows:300px;
+        background-color: rgb(250, 250, 250);
+        padding: 0px;
+    }
+
+    .fundal{
+            background-image:URL("logo.png");
+            background-size:cover;
+            width:100%;
+            margin-top:-250px;
+            height:auto;
+            display: grid;
+            grid-template-columns:auto ;
+            grid-template-rows:750px;
+            
+            padding: 0px;
+        }   
+
+ 
+    img.LuL {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        -webkit-transition: 1s ease-in-out;
+        -moz-transition: 1s ease-in-out;
+        -o-transition: 1s ease-in-out;
+        transition: 1s ease-in-out;
+    }
+   
+
+ul{
+
+    list-style-type:disc;
+}
+
+.galerie{
+            max-width:80%;
+            position: relative;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns:50% 50%;
+            grid-template-rows:400px 400px 400px;
+            padding: 0px;
+            
+        }
+        .galerie-a{
+            border: 5px solid rgba(0, 0, 0, 0.8);
+            background-image: URL("boom.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+            -webkit-transition: 1s ease-in-out;
+            -moz-transition: 1s ease-in-out;
+            -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+        }
+        .galerie-a:hover{
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        .galerie-b{
+            border: 5px solid rgba(0, 0, 0, 0.8);
+            background-image: URL("patron.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+            -webkit-transition: 1s ease-in-out;
+            -moz-transition: 1s ease-in-out;
+            -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+        }
+        .galerie-b:hover{
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        .galerie-c{
+            border: 5px solid rgba(0, 0, 0, 0.8);
+            background-image: URL("rag.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+            -webkit-transition: 1s ease-in-out;
+            -moz-transition: 1s ease-in-out;
+            -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+        }
+        .galerie-c:hover{
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        .galerie-d{
+            border: 5px solid rgba(0, 0, 0, 0.8);
+            background-image: URL("death.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+            -webkit-transition: 1s ease-in-out;
+            -moz-transition: 1s ease-in-out;
+            -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+        }
+        .galerie-d:hover{
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        .galerie-e{
+            border: 5px solid rgba(0, 0, 0, 0.8);
+            background-image: URL("mill.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+            -webkit-transition: 1s ease-in-out;
+            -moz-transition: 1s ease-in-out;
+            -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+        }
+        .galerie-e:hover{
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+        .galerie-f{
+            border: 5px solid rgba(0, 0, 0, 0.8);
+            background-image: URL("leer.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+            -webkit-transition: 1s ease-in-out;
+            -moz-transition: 1s ease-in-out;
+            -o-transition: 1s ease-in-out;
+            transition: 1s ease-in-out;
+        }
+        .galerie-f:hover{
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    
+
+
+
+
+
+
+
+
+
+ 
+
+        
+    
